@@ -1,5 +1,7 @@
 # walkman-notes
 
+## Album art
+
 If you cannot see album art on your Sony Walkman A-* series even if it is embedded into your music files, you have to make sure your album art has following configuration:
 
   - baseline jpeg (**not** [interlaced](https://en.wikipedia.org/wiki/Interlacing_(bitmaps))) - `$ identify -verbose cover.jpg  | grep lace`
@@ -24,3 +26,8 @@ Links to discussions on Sony forums, where I was unable to post:
 https://community.sony.co.uk/t5/portable-audio/re-sony-nw-a45-walkman-missing-artwork-help/td-p/2491157/page/2
 
 https://community.sony.co.uk/t5/portable-audio/missing-album-covers-on-new-sony-a15-walkman/td-p/1843375/page/4
+
+
+## 12 Tone Analysis
+
+Analysis data is taken from Gracenote CDDB and saved in `SMFMF` tag, binary.
